@@ -1,22 +1,29 @@
 body{
     background-color: #e0dfee;
+    
 }
 .backg{
     position: absolute;
    }
+   
 .login{
     height:220px;
-    width: 280px;
+    width: 300px;
     background-color: white; 
     position: relative;
-    top:190px;
-    left:25px;
+    top:200px;
+    left:600px;
     padding-left: 30px;
     box-sizing: border-box;
     z-index: 1;		
     padding-top: 50px;
 
-
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .frm{
     position: relative;
@@ -25,6 +32,7 @@ body{
 }
 .face{
     height: 120px;
+    left:570px;
     width: 135px;
     background-color: white;
     border-radius:120px 120px 90px 90px;
@@ -36,6 +44,8 @@ body{
     height: 40px;
     width: 45px;
     border-radius: 43px 43px 0 0;
+    left:570px;
+
 }
 .earl{
     transform: rotate(-38deg);
@@ -43,13 +53,15 @@ body{
     position: relative;
     top:31px;
     right: 2px;
+    left:570px;
+
 }
 .earr{
     transform: rotate(38deg);
     -webkit-transform: rotate(38deg);
     position: relative;
-    bottom:8px;
-    left:96px;
+    left:675px;
+
 }
 .panda{
     position: relative;
@@ -63,6 +75,7 @@ body{
     width: 32px;
     border-radius:32px; 
     position: relative;	
+
 }
 .eyel{
     top:5px;
@@ -176,16 +189,19 @@ body{
     z-index: 2;
     transition:1s all;
     -webkit-transition:1s all;
+    position: relative;
+
+
 }
 .handl{
     position: relative;
-    bottom: 140px;
-    left: 50px;
+    bottom: 10px;
+    left: -20px;
 }
 .handr{
     position: relative;
-    bottom:185px;
-    left:250px;
+    bottom:55px;
+    left: 140px;
 }
 .pawl,.pawr{
     background-color: #4d4449;
@@ -194,15 +210,16 @@ body{
     border-radius: 40px 40px 20px 20px;
     position: relative;
     z-index: 2;
+    
 
 }
 .pawl{
     top:170px;
-    left:80px;
+    left:650px;
 }
 .pawr{
     top:120px;
-    left:200px;
+    left:800px;
 }
 .p1{
     background-color: white;
@@ -238,7 +255,7 @@ span{
 }
 input{
     color: #4d4449;
-    width: 180px;
+    width: 200px;
     border:none;
     outline: none;
     border-bottom: 1px solid #4d4449;

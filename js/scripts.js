@@ -35,17 +35,18 @@ $(document).ready(function(){
 				});
 				$(".handl").css({
 					transform: 'rotate(-150deg)',
-					bottom: '215px',
-					left:'105px',
-					height:'90px',
-					width:'40px'
+                    left: '20px',
+                    bottom: '110px',
+                    height: '65px',
+					
 				});
 				$(".handr").css({
 					transform: 'rotate(150deg)',
-					bottom: '308px',
-					left:'192px',
-					height:'90px',
-					width:'40px'
+                    left: '80px',
+                    bottom: '175px',
+                    height: '65px',
+
+					
 				});
 			});
 		});
