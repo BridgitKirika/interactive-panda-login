@@ -3,17 +3,16 @@ $(document).ready(function(){
 			$(":text").focus(function(){
 				$(".handl").css({
 					transform: 'rotate(0deg)',
-					bottom: '140px',
-					left:'50px',
-					height:'45px',
-					width:'35px'
+                    left: '30px',
+                    bottom: '20px',
+                    height: '50px',
 				});
 				$(".handr").css({
 					transform: 'rotate(0deg)',
-					bottom: '185px',
-					left:'250px',
-					height:'45px',
-					width:'35px'
+					left: '90px',
+                    bottom: '70px',
+                    height: '50px',
+
 				});
 				$(".eyeball1").css({
 					top: '20px',

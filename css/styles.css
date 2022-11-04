@@ -24,6 +24,7 @@ h5{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    color: #bd6e6e;
 }
 .frm{
     position: relative;
@@ -267,14 +268,15 @@ font-size: 20px;
 outline: none;
 }
 button{
-background-color: #8cc8a2;
+background-color: #bd6e6e;
 outline: none;
 border:none;
 color: white;
 font-family: 'Ubuntu', sans-serif;
 font-size: 23px;
-text-transform: uppercase;
+text-transform: lowercase;
 padding: 5px;
 position: relative;
 left:72px;
+width: 100px;
 }
